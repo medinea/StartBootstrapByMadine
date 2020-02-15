@@ -1,0 +1,333 @@
+body,html,ul{
+    margin: 0;
+    padding: 0;
+}
+.head{
+    width: 100%;
+    height: 50px;
+    background-color: #212529;
+}
+.head>a{
+    font-size: 20px;
+    color: #fed136;
+    text-decoration: none;
+    font-family: 'Kaushan Script', cursive;
+    /* padding:10px  100px ; */
+    display: inline-block;
+}
+li{ 
+    list-style: none;
+    display: inline;
+}
+ul{
+    padding-right: 100px;;
+}
+.nav{
+    float: right; 
+}
+li a{
+    text-decoration: none;
+    color: white;
+    padding-top: 15px;
+    display: inline-block;
+    font-family: 'Montserrat', sans-serif;
+    padding-right: 10px;
+    font-size: 15px;
+    letter-spacing: 1px;
+}
+li:hover a{
+    color:#fed136 ;
+}
+.header-img{
+    background-image: url(../img/2photo.jpg);
+    background-size: cover;
+    width: 100%;
+    height: 700px;
+    box-sizing: border-box;
+    background-position: center;
+    background-repeat: no-repeat;
+}
+.head-word>p{
+    font-size:50px;
+    font-family: 'Kaushan Script', cursive;
+    color: white;
+    text-align: center;
+    margin: 0;   
+}
+.head-word{
+    padding-top: 250px;
+}
+.word2 p{
+    font-size: 70px;
+    text-align: center;
+    letter-spacing: 3px;
+    color: white;
+    margin: 0 auto;
+    font-weight: 900;
+    margin-top: 10px;
+}
+button{
+border: 1px solid #fed136;
+background-color: #fed136;
+color: white;
+text-align: center;
+padding: 25px 40px;
+font-size: 20px;
+border-radius: 3%;     
+}
+.button1{
+text-align: center;
+margin-top: 30px;
+}
+button:hover{
+border-color: #fec810;
+background-color: #fec810;
+}
+
+h1{
+    color:black;
+    text-align: center;
+    font-size: 40px;
+    font-family: 'Montserrat', sans-serif;
+    font-weight: 700;
+    margin-bottom:10px;
+}
+.services-row1{
+    margin-top:100px;
+   
+}
+.services-row1 p{
+    color: #5a6269;
+    text-align: center;
+    font-size: 20px;
+    margin: 0 auto;
+}
+
+.services-row2{
+ 
+    margin-top: 40px;
+  
+    height: 350px;
+    position: absolute;
+    left: 15%;
+    
+}
+
+.services-col{
+    width: 350px;
+    height: 350px;
+    display: inline-block;
+    margin-right: 20px;
+    margin-top: 3%;
+}
+
+.services-col i{
+    width: 100px;
+    height: 90px;
+    border:1px solid #fed136;
+    background-color: #fed136;
+    color: white;
+    border-radius: 50%;
+    margin-top: 10px;
+    font-size:60px;
+    padding-left: 25px;
+    padding-top: 28px;
+    margin-left:100px;;
+}
+
+h2{
+    color:black;
+    text-align: center;
+    font-size: 20px;
+    font-family: 'Montserrat', sans-serif;
+    margin-bottom:10px;
+}
+.services-col p{
+    color: #6c757d;
+    text-align: center;
+    font-size: 16px;
+    letter-spacing: 1px;;
+    margin: 0 auto;
+    font-weight: 400;
+    font-family: 'Roboto Slab', serif;
+}
+
+.portfolie-row{
+    position: absolute;
+   left: 15%;
+   
+
+}
+.port-col{
+    width: 350px;
+    height: 350px;
+    display: inline-block;
+    margin-right: 20px;
+    margin-bottom:70px;
+}
+.port-img img{
+    width: 350px;
+    height: 300px;
+    position: relative;
+}
+.port-text p{
+    color: #5a6269;
+    text-align: center;
+    font-size: 20px;
+    margin: 0 auto;
+}
+
+.overlay{
+    top: 0;
+    left: 0;
+    position: absolute;
+    background-color: rgba(254,209,54,.9);
+    width: 350px;
+    transition: all .4s ease-in-out ;
+    height: 300px;
+    opacity: 0;
+
+}
+.port-img{
+    position: relative;
+    cursor: pointer;
+}
+.port-img:hover .overlay{
+    opacity: 0.8;
+}
+
+.port-img i{
+    position: absolute;
+    font-size: 50px;
+    color: white;
+    top: 45%;
+    left: 45%;
+    opacity: 0;
+    transition: all .4s ease-in-out;
+}
+.port-img:hover i{
+    opacity: 1;
+}
+.team-row1{
+    
+    
+    margin-top: 20px;
+    position: absolute;
+    left: 20%
+    
+}
+.team-col1  {
+   margin-top: 3%;
+    width: 220px;
+    height: 300px;
+    display: inline-block;
+    margin-right: 100px;
+
+}
+.team-col1 h2{
+    font-size: 25px;
+    color:rgb(33, 37, 41)
+}
+.team-col1 img{
+    width: 220px;
+    height: 220px;
+    border:6px solid rgb(223, 217, 217)      ;
+    box-sizing: border-box;
+    border-radius: 50%;
+}
+.team-col1 p{
+    text-align: center;
+    color: rgb(108, 117, 125);
+    font-size: 20px;
+   letter-spacing: 1px;
+    margin-top: 5px;
+}
+.team-col2 i{
+    border: 1px solid rgb(33, 37, 41);
+    background-color: rgb(33, 37, 41);
+    width: 40px;
+    height: 40px;
+    border-radius: 50%;
+    color: white;
+    font-size: 22px;
+    padding-top: 10px;
+    padding-left: 5px;
+    padding-right: 5px;
+    transition: all 0.4s ease-in-out;
+
+}
+.team-col2 {
+    margin-top: 15px;
+    display: inline-block;
+}
+.team-col2 li{
+    text-align: center;
+    margin-right: 10px;
+    display: inline-block;
+}
+.team-col2 ul{
+    margin-left: 20px;
+    width: 200px;
+}
+.team-col2 li:hover i{
+background-color: #fed136;
+border-color:#fed136;
+}
+
+.photo-col{
+    display: inline-block;
+    margin-right: 70px;
+}
+.photo-row {
+    position: absolute;
+    left: 16%
+}
+#photo{
+    margin-top: 10%;
+}
+
+.foot-col{
+    display: inline-block;
+    margin-right: 138px;
+}
+.foot-col li{
+    text-align: center;
+    margin-right: 10px;
+    
+}
+.foot-col ul{
+    margin-left: 20px;
+    padding-right: 0;
+}
+.foot-col li:hover i{
+background-color: #fed136;
+border-color:#fed136;
+}
+.foot-col i{
+    border: 1px solid rgb(33, 37, 41);
+    background-color: rgb(33, 37, 41);
+    width: 40px;
+    height: 40px;
+    border-radius: 50%;
+    color: white;
+    font-size: 22px;
+    padding-top: 10px;
+    padding-left: 5px;
+    padding-right: 5px;
+    transition: all 0.4s ease-in-out;
+}
+.foot-col p{
+    font-family: Montserrat,-apple-system,BlinkMacSystemFont,'Segoe UI',Roboto,'Helvetica Neue',Arial,sans-serif,'Apple Color Emoji','Segoe UI Emoji','Segoe UI Symbol','Noto Color Emoji';
+    color: #212529;
+}
+.foot-col a{
+    color: #fed136;
+    font-family: Montserrat,-apple-system,BlinkMacSystemFont,'Segoe UI',Roboto,'Helvetica Neue',Arial,sans-serif,'Apple Color Emoji','Segoe UI Emoji','Segoe UI Symbol','Noto Color Emoji';
+    font-size: 16px;
+}
+.foot-row{
+  position: absolute;
+  left: 17%;
+    margin-top: 10%;
+    margin-bottom: 5%;
+}
